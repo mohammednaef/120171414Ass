@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProfileUserActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="32sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="Profile"
+        android:layout_height="60dp"/>
+
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="name"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/tx_identity"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="identity"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/tx_pass"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="pass"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:id="@+id/tx_encrept"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="pass"
+        android:layout_height="60dp"/>
+
+
+    <TextView
+        android:id="@+id/tx_hash"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="hash"
+        android:layout_height="60dp"/>
+
+
+</LinearLayout>
